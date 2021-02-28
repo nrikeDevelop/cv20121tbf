@@ -1,0 +1,27 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "mix",
+        "watch": "mix watch",
+        "staging": "NODE_ENV=staging mix",
+        "prod": "mix --production"
+    },
+    "devDependencies": {
+        "laravel-mix": "^6.0.10",
+        "laravel-mix-jigsaw": "^1.5.0",
+        "node-sass": "^4.0.0",
+        "postcss": "^8.2.4",
+        "postcss-import": "^14.0.0",
+        "sass": "1.25.0",
+        "sass-loader": "7.1.0"
+    },
+    "dependencies": {
+        "animate.css": "^4.1.1",
+        "aos": "^2.3.4",
+        "bootstrap": "4.3.1",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.5.1",
+        "popper.js": "1.16.1",
+        "swiper": "^6.4.15"
+    }
+}
